@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evowars.io</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Evowars.io</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#guide">Hướng dẫn chơi</a></li>
+                <li><a href="#about">Về chúng tôi</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào mừng đến với Evowars.io</h2>
+        <p>Evowars.io là một trò chơi hành động trực tuyến đầy thú vị, nơi bạn điều khiển một chiến binh và chiến đấu với người chơi khác để trở thành chiến binh mạnh nhất.</p>
+        <button onclick="window.location.href='https://evowars.io'">Chơi Ngay</button>
+        <img src="images/evowars.jpg" alt="Evowars.io">
+    </section>
+
+    <section id="guide">
+        <h2>Hướng dẫn chơi</h2>
+        <h3>Cách chơi</h3>
+        <p>Sử dụng chuột để di chuyển và tấn công kẻ thù. Thu thập các viên năng lượng để tăng cấp và trở nên mạnh mẽ hơn.</p>
+        <h3>Mẹo và chiến thuật</h3>
+        <ul>
+            <li>Luôn di chuyển để tránh bị tấn công.</li>
+            <li>Thu thập càng nhiều năng lượng càng tốt để tăng cấp nhanh chóng.</li>
+            <li>Hãy cẩn thận với những người chơi cấp cao hơn.</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Về chúng tôi</h2>
+        <p>Chúng tôi là một nhóm các nhà phát triển yêu thích trò chơi trực tuyến và đã tạo ra Evowars.io để mang đến cho người chơi những giây phút giải trí thú vị.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Gửi</button>
+     
